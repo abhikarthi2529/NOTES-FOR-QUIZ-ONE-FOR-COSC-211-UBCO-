@@ -12,7 +12,7 @@ addi $t1, $t1,  -5 # t1 = t1 - 5. 25 will now become 20.
 div $t1,  $t2 # since 20/2 is 10. We do not need to worry about reminder 
 mflo $a2 # Low will point to the quotient 
 
-# Since we are doing with the contents inside of the (), we can now move on to the additon 
+# Since we are done with the contents inside of the (), we can now move on to the additon part
 mult $t0, $t0
 mflo $a3
 
